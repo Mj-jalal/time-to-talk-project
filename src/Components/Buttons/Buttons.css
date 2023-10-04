@@ -1,0 +1,39 @@
+.button a{
+    font-size: 14px;
+    /* color: var(--color-primary); */
+    border-radius: var(--border-redius-primary);
+    padding: 12px 30px;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    font-weight: var(--font-weight-bold);
+    color:var(--color-lite) ;
+}
+
+.primary-button a{
+    border: 1px solid var(--color-lite);
+    margin:0 calc(var(--margin-primary)/2) ;
+}
+.primary-button a:hover{
+    background-color: var(--color-lite);
+    color: var(--color-primary);
+}
+.secondary-button a{
+    /* color: var(--color-lite); */
+    border: none;
+    background-color: var(--color-primary);
+}
+.secondary-button a:hover{
+    background-color: var(--color-vert);
+}
+.footer-button{
+    background-color: var(--color-primary);
+    /* color: var(--color-lite) ; */
+    text-align: center;
+    padding: calc(var(--padding-primary)/5) 0;
+    border-bottom-right-radius:calc(var(--border-redius-primary)/2) ;
+    border-bottom-left-radius:calc(var(--border-redius-primary)/2); 
+    transition: all .3s;
+}
+.footer-button:hover{
+    background-color: var(--color-vert)
+}

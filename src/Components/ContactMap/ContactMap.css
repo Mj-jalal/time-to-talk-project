@@ -1,0 +1,4 @@
+.contact-map iframe{
+    border-radius: var(--border-redius-primary);
+    width: 100%;
+}

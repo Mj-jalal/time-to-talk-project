@@ -1,0 +1,22 @@
+.contact-info{
+    padding:0 calc(var(--padding-primary));
+}
+.contact-info h2{
+    font-weight: var(--font-weight-bold);
+}
+
+.contact-info ul>li{
+    padding: 10px 0;
+    color: var(--color-dark);
+}
+.contact-info ul>li:nth-last-child(n+2){
+   border-bottom: 1px solid var(--color-dark);
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .contact-info{
+        padding:0;
+    }
+  }

@@ -1,0 +1,50 @@
+.trending-episode-card-container{
+    flex: 1 1 25%;
+    background-color: var(--color-secondary);
+    color: var(--color-dark);
+    padding: calc(var(--padding-primary)/2);
+    margin: calc(var(--margin-primary)/4);
+    border-radius: var(--border-redius-primary);
+    transition: all .3s;
+}
+
+
+.trending-episode-img-card{
+    width: 350px;
+    height: 200px;
+    width: 100%;
+    border-radius: var(--border-redius-primary);
+}
+.trending-episode-content-card{
+    padding: calc(var(--margin-primary)/3);
+}
+.trending-episode-title a{
+    font-size: calc(var(--distance-primary)/2);
+    font-weight: var(--font-weight-bold);
+    color: var( --color-vert) !important;
+    transition: all .3s;
+}
+.trending-episode-title a:hover{
+    color: var(--color-primary);
+} 
+.trending-episode-card-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.social-icon{
+    color: var(--color-vert);
+}
+
+.trending-episode-card-container:hover{
+    border: 2px solid var(--color-vert);
+    transform: scale(1.01);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+@media only screen and (max-width: 700px) {
+    .trending-episode-card-container{
+        margin: 5px 0;
+    }
+  }

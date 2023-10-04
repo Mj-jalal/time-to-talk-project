@@ -1,0 +1,95 @@
+.episode-card-container{
+    display: flex;
+    align-items: flex-start;
+    color: var(--color-dark);
+    padding: calc(var(--padding-primary)/ 2);
+    border: 2px solid var(--color-vert);
+    border-radius: var(--border-redius-primary);
+    transition: all .4s;
+}
+.poscast-image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: calc(var(--margin-primary)/4);
+}
+
+.podcast-image{
+    position: relative;
+}
+.podcast-image img{
+    height: 130px;
+    width: 130px;
+    border-radius: var(--border-redius-primary);
+    margin-bottom: calc(var(--margin-primary)/3);
+}
+
+
+.podcast-info h4{
+    font-size: calc(var(--distance-primary)/2);
+    font-weight: var(--font-weight-bold);
+}
+.podcast-icon,.podcast-info h4>a{
+    color: var(--color-vert);
+    transition: all .3s;
+}
+
+.podcast-content-container ul{
+    padding: 0;
+    display: flex;
+}
+.podcast-content-container ul>li{
+    margin-right: calc(var(--margin-primary)/4);
+}
+
+.click-podcast{
+    color: var(--color-vert);
+}
+.episode{
+    background-color: var(--color-primary);
+    color: var(--color-lite);
+    padding: 5px;
+    border-radius: var(--border-redius-primary);
+    font-size: calc(var(--distance-primary)/5);
+}
+.container-badge{
+    display: flex;
+    flex-direction: column;
+}
+.container-badge>div{
+    background-color: var(--color-darkest);
+    color: var(--color-lite);
+    padding: 10px 14px;
+    border-radius: var(--border-redius-primary);
+    transition: all .3s;
+}
+.podcast-info h4>a:hover{
+    color: var(--color-primary);
+}
+.container-badge>div:hover{
+    background-color: var(--color-primary);
+}
+.episode-card-container:hover{
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scale(1.02)
+}
+@media only screen and (max-width: 600px) {
+    .episode-card-container{
+        flex-wrap: wrap;
+    }
+    .poscast-image-container{
+        margin: 0 auto 15px;
+    }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .container-badge{
+        margin: auto;
+        flex-direction: row;
+    }
+    .container-badge>div{
+        margin: 0 10px;
+    }
+  }

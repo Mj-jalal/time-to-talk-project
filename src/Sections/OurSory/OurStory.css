@@ -1,0 +1,26 @@
+.our-story-container{
+    margin:calc(var(--margin-primary)*2) ;
+    padding:0 calc(var(--padding-primary) *1.5);
+}
+.contianer-img {
+    width: 100%;
+}
+.our-story-container> div img{
+    border-radius: var(--border-redius-primary);
+    width: 100%;
+}
+.our-story-container> div p{
+    color: var(--color-dark);
+}
+@media only screen and (max-width: 700px) {
+    .row *{
+        flex-shrink: 1 !important ;
+    }
+    .our-story-container{
+        padding: 0;
+        margin: 0 calc(var(--padding-primary) / 2) calc(var(--margin-primary)*2) !important;
+    }
+    .contianer-img {
+        width: 90vw;
+    }
+  }

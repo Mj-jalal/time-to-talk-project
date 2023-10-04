@@ -1,0 +1,21 @@
+.badge-container{
+    display: flex;
+    margin-top: calc(var( --margin-primary)/3);
+}
+.badge-container p{
+    background-color: var(--color-primary);
+    border-radius: var(--border-redius-primary);
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: var( --font-weight-bold);
+    margin-right: 5px;
+}
+.secondary-badge{
+    background-color: var(--color-primary);
+    border-radius: var(--border-redius-primary);
+    color: var(--color-lite);
+    font-size: 12px;
+    padding: 2px 10px;
+    font-weight: var( --font-weight-bold);
+    display: inline-block;
+}

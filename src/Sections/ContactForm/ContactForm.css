@@ -1,0 +1,56 @@
+.floating-label-group{
+    position: relative;
+}
+.floating-label{
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    pointer-events: none;
+    transition: all 0.1s ease;
+    /* font-size: 13px; */
+}
+.floating-label-group input, textarea{
+    padding: calc(var(--padding-primary)/3.5);
+    margin-bottom: calc(var(--margin-primary)/2);
+    border-radius:calc( var(--border-redius-primary)/3);
+    border: 1px solid var( --color-dark);
+    outline: none;
+}
+.contact-form{
+    margin:0 var(--margin-primary);
+    padding:calc(var(--padding-primary)/2) calc(var(--padding-primary) );
+}
+
+input:focus ~ .floating-label 
+{
+		top: 2px;
+		font-size: 13px;
+		opacity: 1;
+		color: var(--color-dark);
+	}
+textarea:focus ~ .floating-label 
+{
+		top: 2px;
+		font-size: 13px;
+		opacity: 1;
+		color: var(--color-dark);
+	}
+.contact-form-button> div{
+    float: right;
+}
+.contact-form-button> div a{
+    padding: calc(var(--padding-primary)/4) calc(var(--padding-primary)*2) ;
+}
+@media only screen and (max-width: 700px) {
+    .contact-form{
+        padding: 0;
+        margin: 0 calc(var(--padding-primary) / 2);
+    }
+    .contact-form-button> div{
+        float: unset;
+    }
+    .contact-form-button> div a{
+        display: block;
+        text-align: center;
+    }
+  }

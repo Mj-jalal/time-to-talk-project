@@ -1,0 +1,18 @@
+.Header-page{
+  background-image: url("../../Assets/images/templatemo-wave-header.jpg") ,linear-gradient(#348CD2, #FFFFFF);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 480px;
+  text-align: center;
+  position: relative;
+}
+
+.Header-page h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-lite);
+}
