@@ -4,7 +4,7 @@ import {FaHeadphones, FaHeart, FaMessage } from "react-icons/fa6";
 const TrendingEpisodeCard=({card})=>{
     return(
         <div className='trending-episode-card-container'>
-            <img className='trending-episode-img-card' src={card.podcast_img}/>
+            <img className='trending-episode-img-card' src={card.podcast_img} alt=''/>
             <div className='trending-episode-content-card'>
                 <h4 className='trending-episode-title'><a href='#'>{card.podcast_title}</a></h4>
                 <UserInfo name={card.name} work={card.work} avatar={card.avatar_img} text={card.text}/>

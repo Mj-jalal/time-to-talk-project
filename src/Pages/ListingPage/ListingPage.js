@@ -1,4 +1,4 @@
-import { HeaderPage, PaginaTion, SectionHeader } from '../../Components'
+import { HeaderPage, PaginaTion} from '../../Components'
 import { LasteEpisode, TrendingEpisodes } from '../../Sections'
 import './ListingPage.css'
 

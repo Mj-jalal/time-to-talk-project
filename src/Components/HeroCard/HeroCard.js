@@ -8,10 +8,10 @@ const HeroCard =(props)=>{
     return(
         <div className='card-container'>
             <div className='header-card'>
-                <img src={props.image}/>
+                <img src={props.image} alt=''/>
             </div>
             <div className='content-card'>
-                <h4>{props.name} <span className='verified-img'>{props.contStatus&& <img src={verified_img}/>}</span></h4>
+                <h4>{props.name} <span className='verified-img'>{props.contStatus&& <img src={verified_img} alt=''/>}</span></h4>
                 <Badge work={props.work}/>
             </div>
             <div className='social-media'>

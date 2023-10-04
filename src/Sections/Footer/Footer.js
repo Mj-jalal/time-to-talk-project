@@ -28,7 +28,7 @@ const Footer =()=>{
                 <div className='footer-social'>
                     <h4><strong>Download Mobile</strong></h4>
                     <div className='mt-3'>
-                        <img className='me-3' src={appStore}/>
+                        <img className='me-3' src={appStore} alt=''/>
                         <img src={playStore}/>
                     </div>
                     <h4 className='mt-4'><strong>Social</strong></h4>

@@ -38,9 +38,9 @@ function DailyTalk() {
                 </div>
                 <div className="daily-talk-footer-content col-12 d-flex justify-content-between align-items-center flex-wrap">
                         <div className="d-flex align-items-center">
-                            <img className="daily-avatar" src={dailyAvatar}/>
+                            <img className="daily-avatar" src={dailyAvatar} alt=""/>
                             <div className="ms-3">
-                                <p className="m-0">Elsa <span><img src={dailyCheck} height={20}/></span></p>
+                                <p className="m-0">Elsa <span><img src={dailyCheck} height={20} alt=""/></span></p>
                                 <h6>Influencer</h6>
                             </div>
                         </div>
